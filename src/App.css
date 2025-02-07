@@ -101,3 +101,7 @@ p {
   color: #555;
   margin: 5px 0;
 }
+.profile-container .button{
+  color: white;
+  background-color: red;
+}
