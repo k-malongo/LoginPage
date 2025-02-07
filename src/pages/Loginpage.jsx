@@ -1,6 +1,5 @@
 import { useState } from "react";
 import axios from "axios";
-import { jwtDecode } from "jwt-decode"
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 import { useContext } from 'react';
@@ -45,11 +44,7 @@ export default function Login() {
           className="input"
         />
         <button onClick={handleLogin} className="button">Login</button>
-        {/* {user && (
-          <div className="message">
-            <p>Welcome, {user.name}!</p>
-          </div>
-        )} */}
+
       </div>
     </div>
   );
